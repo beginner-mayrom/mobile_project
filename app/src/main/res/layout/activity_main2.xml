@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2"
-    android:background= "#FFE8CD">
+    android:background= "#2B2B2B">
 
     <ListView
         android:id="@+id/listView"
@@ -24,9 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="1dp"
-        android:backgroundTint="#C8C9C7"
+        android:backgroundTint="#F5F5F5"
         android:fontFamily="@font/stick"
         android:text="@string/btn"
         android:textColor="#666699"
@@ -49,6 +49,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="#F5F5F5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background= "#2B2B2B">
 
     <TextView
         android:id="@+id/textView5"
@@ -15,6 +16,7 @@
         android:text="1º )"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="#F5F5F5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,6 +39,7 @@
         android:text="Cascão"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="#F5F5F5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
